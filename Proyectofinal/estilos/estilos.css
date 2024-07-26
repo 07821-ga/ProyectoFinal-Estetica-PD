@@ -1,0 +1,150 @@
+
+
+body{
+    background-image: url("../Imagenes/fondomargarita.jpg");
+    background-repeat: no-repeat;
+    background-size: 65% 100%;
+    font-size: 20px;
+    }
+
+   h4{
+    font-size: 30px;
+    text-decoration: underline;
+   } 
+  
+  h5{
+    background-color:rgb(255, 223, 248, 0.6);
+    font-size: 25px;
+    padding: 8px 8px 8px 8px;
+    margin: 30px 350px 0px 350px;
+    border-radius:45px ;
+    display: flex;
+    justify-content: center;
+  }
+
+  p{
+    background-color:rgb(255, 223, 248, 0.6);
+    padding: 10px 30px 10px 10px;
+    border-radius: 45px;
+  }
+  
+  img {
+    box-shadow: 15px 10px 3px;
+    border-radius: 50%;
+    margin: 30px 10px 15px 30px;
+    width: 190px;
+    height: 190px;
+    color:rgb(236, 61, 120);
+    object-fit: scale-down  ;
+    object-fit: cover;
+  }
+
+
+
+#Titulo{
+  background-image: url("../Imagenes/imagenlogo2recorte.jpg");
+  height: 30vh;
+  margin: 0pc;
+  padding: 30px 0px 30px 0px;
+  opacity: 0.9;
+    color:pink;
+    font-size: 150px;
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    justify-content: center;
+      }
+
+
+
+.ContenedorPresentacion{
+    background-color:rgb(255, 246, 204, 0.6);
+    display: flex;;
+    flex-direction: row;
+    margin: 20px;
+    padding: 20px 40px 20px 40px
+}
+.Presentacion{
+    background-color:rgb(255, 246, 204, 0.1);
+    font-size: 25px;
+    margin: 20px ;
+}
+
+.Servicio{
+    color:rgb(236, 61, 120);
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+.Subtitulo{
+    color:rgb(236, 61, 120);
+    margin: 35px;
+}
+
+
+.divContenedorManicuriaTratamientosYMasajes{
+    background-color:rgb(255, 230, 248, 0.6);
+    color: rgb(236, 61, 120);
+    padding: 10px 30px 10px 250px;
+}
+.ManosAlisadoyMasajes{
+  position: absolute;
+}
+
+
+.divContenedorDepliacionyPestañas{
+    background-color:rgb(255, 244, 252, 0.6);
+    color: rgb(236, 61, 120);
+    display: grid;
+    justify-content: end;
+    padding: 10px 300px 10px 150px;
+    }
+.DepilacionyPestañas{
+  position: absolute;
+  left: 1000px;
+  margin: 40px ;
+  
+}
+
+
+
+
+.ContenedorGiftCard{
+  display: grid;
+  grid-template-columns: 400px auto auto auto;
+  margin: 0px 0px 0px 50px;
+}
+.Gift{
+    text-align: center;
+    padding: 50px;
+    }
+
+
+
+.ContenedorAgenda{
+  display: grid;
+  grid-template-columns: 400px auto auto auto;
+  margin: 0px 0px 0px 300px;
+    
+}
+.botonEnviar{
+   background-color:rgb(255, 223, 248, 0.6);
+   border-radius: 50%;
+   padding: 10px 10px 10px 10px;
+   margin: auto;
+}
+
+
+.ContenedorContactos{
+  font-size: 50px;
+  color:rgb(236, 61, 120);;
+  height: 300px;
+ display: flex;
+ justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  
+}
+  
+
+
+
